@@ -9,7 +9,7 @@ public class AssaultDesktop {
 
     public static void main(String[] args) {
         LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-        config.useGL20 = true;
+        config.useGL30 = true;
         config.title = "Star Assault";
 //        config.width = 480;
 //        config.height = 320;
